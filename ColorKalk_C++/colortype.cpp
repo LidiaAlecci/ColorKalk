@@ -17,7 +17,7 @@ ColorType* ColorType::getFirstPrimary() const{
         return new Primary(0,0,blue);
 }
 
-ColorType* ColorType::buildColorType(Color* c) const{
+ColorType* ColorType::buildColorType(Color* c){
     unsigned int red=c->getRed(), green=c->getGreen(), blue=c->getBlue();
     if(c->is_Primary()){
         return new Primary(red,green,blue);

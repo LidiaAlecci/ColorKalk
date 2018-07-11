@@ -15,7 +15,7 @@ public:
     ColorType* MinIntensity() const;//ritorna il colore con la minima intensita'  dell'oggetto di invocazione
     ColorType* LucePura() const;
 private:
-    ColorType* buildColorType(Color*) const;
+    static ColorType* buildColorType(Color*);
 };
 
 #endif // COLORTYPE_H
