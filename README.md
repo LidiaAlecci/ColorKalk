@@ -1,4 +1,4 @@
-# KalkColor
+# ColorKalk
 Calculator of RGB color.
 
 This Calculator is a student project required for the course of object oriented programming at the second year of the first level degree in Computer Science at University of Padua.
@@ -14,4 +14,4 @@ For the Java part was required a simple class "Use" with a "main" that shows exa
 For the C++ part, you have to go to the "ColorKalk_C++" folder, execute "qmake" and then execute make.
 For the Java part, you have to go to the "ColorKalk_Java" folder and execute "javac -d bin -sourcepath src src/Main/Use.java".
 
-KalkColor was developed in may 2018.
+ColorKalk was developed in may 2018.
