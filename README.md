@@ -20,6 +20,6 @@ make
 For the Java part, you have to go to the "ColorKalk_Java" folder and execute:
 ```bash
 javac -d bin -sourcepath src src/Main/Use.java
-``
+```
 
 ColorKalk was developed in may 2018.
